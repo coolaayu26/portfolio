@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="css/background.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link rel="stylesheet/less" href="css/graph.less">
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/less.js/2.7.3/less.min.js"></script>
+
+
+    <script type="text/javascript" src="js/autoType.js"></script>
+    <script type="text/javascript" src="js/graph.js"></script>
+</head>
+<body>
+
+<!--Intro Section-->
+
+<section id="intro">
+    <div class="intro">
+        <div class="container">
+            <div class="centered">
+                <!--<p> Hi! My name is Aayush Aggarwal. Experienced in developing Web applications, Interactive Web-sites and UX</p>-->
+                <h1 class="intro">
+                    Hello, I'm Aayush Aggarwal.
+                    <a href="" class="typewrite" data-period="2000" data-type='["I am a Full Stack Developer.", "I Love Design.", "I Love to Develop." ]'>
+                        <span class="wrap"></span>
+                    </a>
+                </h1>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--About Section-->
+
+<section id="about">
+    <div class="about" id="main_about">
+        <div class="container-fluid">
+            <div class="navbar">
+                <nav>
+                    <div class="nav-wrapper">
+                        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+                        <div class="nav-content">
+                            <ul id="nav-mobile" class="left hide-on-med-and-down">
+                                <li class="tab"><a href="#">Home</a></li>
+                                <li class="tab"><a href="#">Projects</a></li>
+                                <li class="tab"><a href="#">About</a></li>
+                                <li class="tab"><a href="#">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <div class="row" style="padding-top: 20px">
+                <h3 class="center-align"><span class="animated fadeIn">ABOUT</span></h3>
+            </div>
+            <div class="section scrollspy">
+                <div class="container">
+                    <div class="row">
+                        <div  class="col s12">
+                            <h2 class="center-align"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                        </div>
+                        <div  class="col s12 m6 l2">
+                            <div class="center promo promo-example">
+                                <i class="large material-icons">access_alarm</i>
+                                <h5 class="promo-caption">Fast</h5>
+                                <p class="light center">Fast load times and lag free interaction, my highest priority.</p>
+                            </div>
+                        </div>
+                        <div class="col s12 m6 offset-l1 l2">
+                            <div class="center promo promo-example">
+                                <i class="large material-icons">flash_on</i>
+                                <h5 class="promo-caption">Intuitive</h5>
+                                <p class="light center">My layouts will work on any device, big or small.</p>
+                            </div>
+                        </div>
+                        <div class="col s12 m6 offset-l1 l2">
+                            <div class="center promo promo-example">
+                                <i class="large material-icons">phonelink</i>
+                                <h5 class="promo-caption">Responsive</h5>
+                                <p class="light center">Strong preference for easy to use, intuitive UX/UI.</p>
+                            </div>
+                        </div>
+                        <div class="col s12 m6 offset-l1 l2">
+                            <div class="center promo promo-example">
+                                <i class="large material-icons">whatshot</i>
+                                <h5 class="promo-caption">Dynamic</h5>
+                                <p class="light center">Websites don't have to be static, I love making pages come to life.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col s12 m6 l6">
+                            <span class="center-align">
+                            <img src="profile_pic.jpg" class="circle responsive-img"></span>
+                            <p class="flow-text">I'm a Full Stack Developer in New York City working on different sets of Technologies and always challenging myself to do something new. Let's make something new</p>
+                        </div>
+                        <div class="col s12 m6 l6">
+                            <div class="chart-wrap">
+                                <div class="chart-title">
+                                    Levels of Interest
+                                </div>
+                                <div id="dashboard-stats" class="chart bars-horizontal brand-primary">
+                                    <div class="row">
+                                        <span class="label">Interest 1</span>
+                                        <div class="bar-wrap">
+                                            <div class="bar" data-value="62"></div>
+                                        </div>
+                                        <span class="number">100</span>
+                                    </div>
+                                    <div class="row">
+                                        <span class="label">Interest 2</span>
+                                        <div class="bar-wrap">
+                                            <div class="bar" data-value="35"></div>
+                                        </div>
+                                        <span class="number">20</span>
+                                    </div>
+                                    <div class="row">
+                                        <span class="label">Interest 3</span>
+                                        <div class="bar-wrap">
+                                            <div class="bar" data-value="18"></div>
+                                        </div>
+                                        <span class="number">30</span>
+                                    </div>
+                                    <div class="row">
+                                        <span class="label">Interest 4</span>
+                                        <div class="bar-wrap">
+                                            <div class="bar" data-value="13"></div>
+                                        </div>
+                                        <span class="number">40</span>
+                                    </div>
+                                    <div class="row">
+                                        <span class="label">Interest 5</span>
+                                        <div class="bar-wrap">
+                                            <div class="bar" data-value="8"></div>
+                                        </div>
+                                        <span class="number">50</span>
+                                    </div>
+                                    <div class="row">
+                                        <span class="label">Interest 6</span>
+                                        <div class="bar-wrap">
+                                            <div class="bar" data-value="5"></div>
+                                        </div>
+                                        <span class="number">60</span>
+                                    </div>
+                                    <div class="row">
+                                        <span class="label">Interest 7</span>
+                                        <div class="bar-wrap">
+                                            <div class="bar" data-value="5"></div>
+                                        </div>
+                                        <span class="number">70</span>
+                                    </div>
+                                    <div class="row">
+                                        <span class="label">Interest 8</span>
+                                        <div class="bar-wrap">
+                                            <div class="bar" data-value="5"></div>
+                                        </div>
+                                        <span class="number">80</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--Work Section-->
+
+<section id="work">
+    <div class="work" id="main_work">
+        <div class="row">
+            <h3 class="center-align"><span class="animated fadeIn">PROJECTS</span></h3>
+        </div>
+    </div>
+</section>
+
+
+</body>
+</html>
